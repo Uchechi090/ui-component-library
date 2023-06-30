@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is about components completely customizable: each component has a test file, style file in its folder.
+This project is about custom react components: each component has a test file and a style file in its folder.
 
-All components are already imported into the App components and are ready for viewing.
+All components are already imported into the App component and are ready for viewing.
 
 You can find instructions on running the project below.
 
