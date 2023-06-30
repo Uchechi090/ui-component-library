@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputField /> should show props 1`] = `
+<DocumentFragment>
+  <div
+    class="input-wrapper"
+    data-testid="input-wrapper"
+  >
+    <label
+      for="Name"
+    >
+      Name
+    </label>
+    <input
+      data-testid="input-field"
+      id="Name"
+      name="name"
+      placeholder="Please enter your name"
+      type="text"
+      value="Jane Doe"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<InputField /> should test for disabled 1`] = `
+<DocumentFragment>
+  <div
+    class="input-wrapper"
+    data-testid="input-wrapper"
+  >
+    <label
+      for="Name"
+    >
+      Name
+    </label>
+    <input
+      data-testid="input-field"
+      disabled=""
+      id="Name"
+      name="name"
+      placeholder="Please enter your name"
+      type="text"
+      value="Jane Doe"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<InputField /> should test for when isValid is false 1`] = `
+<DocumentFragment>
+  <div
+    class="input-wrapper"
+    data-testid="input-wrapper"
+  >
+    <label
+      for="Name"
+    >
+      Name
+    </label>
+    <input
+      data-testid="input-field"
+      id="Name"
+      name="name"
+      placeholder="Please enter your name"
+      type="text"
+      value="Jane Doe"
+    />
+    <p
+      class="error"
+      data-testid="error-validation"
+    >
+      Please check that your input is valid
+    </p>
+  </div>
+</DocumentFragment>
+`;

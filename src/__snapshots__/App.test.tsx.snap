@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should show App component 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <span
+      class="heading"
+    >
+      UI Component Library
+    </span>
+    <div
+      class="btn-container"
+    >
+      <button
+        class="btn undefined undefined"
+        data-testid="btn"
+        type="button"
+      >
+        Button
+      </button>
+      <button
+        class="btn large undefined"
+        data-testid="btn"
+        type="button"
+      >
+        Large
+      </button>
+      <button
+        class="btn small undefined"
+        data-testid="btn"
+        type="button"
+      >
+        Small
+      </button>
+      <button
+        class="btn primary undefined"
+        data-testid="btn"
+        type="button"
+      >
+        Primary
+      </button>
+      <button
+        class="btn secondary undefined"
+        data-testid="btn"
+        type="button"
+      >
+        Secondary
+      </button>
+    </div>
+    <div>
+      <div
+        class="input-wrapper"
+        data-testid="input-wrapper"
+      >
+        <label
+          for="Name"
+        >
+          Name
+        </label>
+        <input
+          data-testid="input-field"
+          id="Name"
+          name="name"
+          placeholder="Please enter your name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="dropdown-select"
+    >
+      <div
+        class="dropdown-container"
+        data-testid="dropdown-container"
+      >
+        <div
+          class="input-container"
+          data-testid="input-container"
+        >
+          <input
+            data-testid="input"
+            placeholder="Select an option"
+            type="text"
+            value=""
+          />
+          <div
+            class="input-arrow-container"
+          >
+            <svg
+              class="input-arrow"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal-trigger-container"
+    >
+      <button
+        class="modal-trigger"
+      >
+        Open Modal
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

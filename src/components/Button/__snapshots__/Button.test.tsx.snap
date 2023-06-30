@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should contain classname for large 1`] = `
+<DocumentFragment>
+  <button
+    class="btn large undefined"
+    data-testid="btn"
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> should contain classname for primary 1`] = `
+<DocumentFragment>
+  <button
+    class="btn primary undefined"
+    data-testid="btn"
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> should contain classname for secondary 1`] = `
+<DocumentFragment>
+  <button
+    class="btn secondary undefined"
+    data-testid="btn"
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> should contain classname for small 1`] = `
+<DocumentFragment>
+  <button
+    class="btn small undefined"
+    data-testid="btn"
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> should show disabled 1`] = `
+<DocumentFragment>
+  <button
+    class="btn undefined disabled"
+    data-testid="btn"
+    disabled=""
+    type="button"
+  >
+    Button
+  </button>
+</DocumentFragment>
+`;
